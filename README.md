@@ -4,7 +4,6 @@
 Este proyecto es una aplicación web completa para la **gestión de usuarios**, desarrollada utilizando tecnologías modernas del stack fullstack:
 
 - **Frontend:** Angular 19
-- **Backend:** Spring Boot (Java 17)
 - **Base de datos:** MySQL (modelada y gestionada con MySQL Workbench)
 
 ---
@@ -25,13 +24,6 @@ El objetivo de esta aplicación es permitir la administración de usuarios a tra
 - Angular Material (opcional, si está integrado)
 - Interceptores HTTP para manejo global de errores y autenticación
 
-### 🧪 Backend
-
-- Spring Boot con Java 17+
-- Controladores REST (`@RestController`)
-- Servicios y Repositorios (`@Service`, `@Repository`)
-- Manejo de peticiones HTTP (`GET`, `POST`, `PUT`, `DELETE`)
-- Configuración de CORS
 
 ### 🛢️ Base de Datos
 
@@ -55,12 +47,7 @@ El objetivo de esta aplicación es permitir la administración de usuarios a tra
 
 ## 🧪 Ejecución del Proyecto
 
-### 🖥️ Backend
 
-1. Clonar el repositorio del backend.
-2. Configurar `application.properties` con tu conexión MySQL.
-3. Ejecutar el proyecto con Spring Boot (desde IDE o línea de comandos).
-4. Asegurarse que esté disponible en: `http://localhost:8081/api/users` (ejemplo).
 
 ### 🌐 Frontend
 
